@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Денис Кучмин](https://up.htmlacademy.ru/htmlcss/39/user/1619613).
-* Наставник: `Неизвестно`.
+* Наставник: [Андрей Грачев](https://htmlacademy.ru/profile/angra).
 
 ---
 
