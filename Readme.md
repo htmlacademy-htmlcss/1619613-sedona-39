@@ -2,7 +2,7 @@
 
 * Студент: [Денис Кучмин](https://up.htmlacademy.ru/htmlcss/39/user/1619613).
 * Наставник: [Андрей Грачев](https://htmlacademy.ru/profile/angra).
-
+* Сайт [Мой проект Седона](https://kchmn.github.io/1619613-sedona-39/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
