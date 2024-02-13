@@ -10,17 +10,17 @@
     <header class="page-header">
       <nav class="navigation">
         <a class="navigation-logo" href="index.html">
-          <img class="page-header-logo" src="#" alt="Логотип Седоны">
+          <img class="page-header-logo" src="images/logo.svg" width="140" height="70" alt="Логотип города Седона">
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link navigation-link-current" href="index.html">Главная</a>
+            <a class="navigation-link navigation-main-link" aria-current="page" href="index.html">Главная</a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">О Седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="catalog.html">Гостиницы</a>
+            <a class="navigation-main-link navigation-main-link-current" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
         <ul class="navigation-user">
@@ -107,7 +107,7 @@
         </form>
       </section>
       <section class="catalog">
-        <h2 class="catalog-title">Найдено гостиниц: 38</h2>
+        <h2 class="catalog-title">Найдено гостиниц: <span class="number-hotels">38</span></h2>
         <select class="select-control" aria-label="Сортировка">
           <option value="cheap">Сначала дешевые</option>
           <option value="popular">Сначала популярные</option>
@@ -128,15 +128,15 @@
                   <h3>Amara Resort & Spa</h3>
               </a>
               <a href="#" tabindex="-1">
-                  <img src="#"
-                      alt="Amara Resort & Spa">
+                  <img src="images/hotel-1.jpg" width="300" height="212"
+                      alt="звёздное небо среди скал">
               </a>
               <span>Гостиница</span>
               <b class="hotel-costs">От 4000 ₽</b>
               <a href="#">Подробнее</a>
               <button class="button button-to-favorites" type="button">в избранное</button>
               <div class="stars four-stars">
-                  <span class="visually-hidden">4 звезды</span>
+                  <span class="visually-hidden product-card-stars-4">4 звезды</span>
               </div>
               <p class="hotel-rating">Рейтинг:<span>8,5</span></p>
           </li>
@@ -145,15 +145,15 @@
                   <h3>Villas at Poco Diablo</h3>
               </a>
               <a href="#" tabindex="-1">
-                  <img src="#"
-                      alt="Villas at Poco Diablo">
+                  <img src="images/hotel-2.jpg" width="300" height="212"
+                      alt="радуга в облаках над скалами">
               </a>
               <span>Гостиница</span>
               <b class="hotel-costs">От 5000 ₽</b>
               <a href="#">Подробнее</a>
               <button class="button button-in-favorites" type="button">в избранное</button>
               <div class="stars four-stars">
-                  <span class="visually-hidden">4 звезды</span>
+                  <span class="visually-hidden product-card-stars-4">4 звезды</span>
               </div>
               <p class="hotel-rating">Рейтинг:<span>9,2</span></p>
           </li>
@@ -162,15 +162,15 @@
                   <h3>Desert Quail Inn</h3>
               </a>
               <a href="#" tabindex="-1">
-                  <img src="#"
-                      alt="#">
+                  <img src="images/hotel-3.jpg" width="300" height="212"
+                      alt="район Ред-Рок в Седоне">
               </a>
               <span>Гостиница</span>
               <b class="hotel-costs">От 2500 ₽</b>
               <a href="#">Подробнее</a>
               <button class="button button-to-favorites" type="button">в избранное</button>
               <div class="stars three-stars">
-                  <span class="visually-hidden">3 звезды</span>
+                  <span class="visually-hidden product-card-stars-3">3 звезды</span>
               </div>
               <p class="hotel-rating">Рейтинг:<span>6,9</span></p>
           </li>
@@ -179,15 +179,15 @@
                   <h3 aria-label="Гостиница GreenTree Inn">GreenTree Inn</h3>
               </a>
               <a href="#" tabindex="-1">
-                  <img src="#"
-                      alt="#">
+                  <img src="images/hotel-4.jpg" width="300" height="212"
+                      alt="вид на Громовую гору">
               </a>
               <span>Гостиница</span>
               <b class="hotel-costs">От 1500 ₽</b>
               <a href="#">Подробнее</a>
               <button class="button button-to-favorites" type="button">в избранное</button>
               <div class="stars two-stars">
-                  <span class="visually-hidden">2 звезды</span>
+                  <span class="visually-hidden product-card-stars-2">2 звезды</span>
               </div>
               <p class="hotel-rating">Рейтинг:<span>5,0</span></p>
           </li>
@@ -241,9 +241,7 @@
         </li>
       </ul>
       <a class="phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-      <a class="academy-link" href="https://htmlacademy.ru/">
-        <img class="htmlacademy-logo" src="#" alt="Логотип HTML Academy">
-      </a>
+      <a class="academy-link" href="https://htmlacademy.ru/"></a>
     </footer>
   </body>
 
