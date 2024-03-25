@@ -135,7 +135,7 @@
           </p>
           <form action="https://echo.htmlacademy.ru/" class="subscribe-table" method="post">
             <label class="visually-hidden" for="e-mail">Укажите ваш e-mail</label>
-            <input class="input-subscribe" id="e-mail" type="email" name="email" placeholder="Ваш e-mail">
+            <input class="input-subscribe" id="e-mail" type="email" name="email" placeholder="Ваш e-mail" required>
             <button class="button button-blue button-subscribe" type="submit">Подписаться</button>
           </form>
         </section>
@@ -200,7 +200,9 @@
               <input class="modal-input modal-input-date" id="input-date-in"
                 aria-label="Укажите дату заезда в гостинницу" name="modal-input-date-in" type="text" maxlength="30"
                 placeholder="Укажите дату" required>
-              <button class="button-calendar" type="button"></button>
+              <button class="button-calendar" type="button">
+                <span class="visually-hidden"> Выбрать дату заезда</span>
+              </button>
             </div>
             <span class="input-tooltip input-tooltip-error ">Мы не можем отправить вас в прошлое</span>
             <label class="modal-label" for="input-date-out">Дата Выезда:</label>
@@ -208,7 +210,9 @@
               <input class="modal-input modal-input-date" id="input-date-out"
                 aria-label="Укажите дату выезда из гостиницы" name="modal-input-date-out" type="text" maxlength="30"
                 placeholder="Укажите дату" required>
-              <button class="button-calendar" type="button"></button>
+              <button class="button-calendar" type="button">
+                <span class="visually-hidden"> Выбрать дату заезда</span>
+              </button>
             </div>
             <span class="input-tooltip input-tooltip-success">На эти даты есть свободные номера. Пока есть.</span>
             <label class="modal-label" for="input-age-old">Взрослые:</label>
